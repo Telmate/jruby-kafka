@@ -97,6 +97,9 @@ sleep 10
 consumer.shutdown
 ```
 
+## Important
+If you update the kafka version in jruby-kafka.gemspec, remember to run `rake install_jars` and rebuild the gem.
+
 ## Contributing
 
 1. Fork it

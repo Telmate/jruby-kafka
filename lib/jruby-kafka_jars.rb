@@ -1,0 +1,42 @@
+# this is a generated file, to avoid over-writing it just delete this comment
+begin
+  require 'jar_dependencies'
+rescue LoadError
+  require 'org/xerial/snappy/snappy-java/1.1.7.1/snappy-java-1.1.7.1.jar'
+  require 'org/lz4/lz4-java/1.4.1/lz4-java-1.4.1.jar'
+  require 'com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar'
+  require 'log4j/log4j/1.2.17/log4j-1.2.17.jar'
+  require 'com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar'
+  require 'com/typesafe/scala-logging/scala-logging_2.12/3.8.0/scala-logging_2.12-3.8.0.jar'
+  require 'com/101tec/zkclient/0.10/zkclient-0.10.jar'
+  require 'org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar'
+  require 'org/apache/kafka/kafka_2.12/1.1.1/kafka_2.12-1.1.1.jar'
+  require 'com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar'
+  require 'org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.jar'
+  require 'org/apache/kafka/kafka-clients/1.1.1/kafka-clients-1.1.1.jar'
+  require 'org/slf4j/slf4j-log4j12/1.7.13/slf4j-log4j12-1.7.13.jar'
+  require 'com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar'
+  require 'org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.jar'
+  require 'org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.jar'
+  require 'net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar'
+end
+
+if defined? Jars
+  require_jar 'org.xerial.snappy', 'snappy-java', '1.1.7.1'
+  require_jar 'org.lz4', 'lz4-java', '1.4.1'
+  require_jar 'com.fasterxml.jackson.core', 'jackson-core', '2.9.6'
+  require_jar 'log4j', 'log4j', '1.2.17'
+  require_jar 'com.fasterxml.jackson.core', 'jackson-annotations', '2.9.0'
+  require_jar 'com.typesafe.scala-logging', 'scala-logging_2.12', '3.8.0'
+  require_jar 'com.101tec', 'zkclient', '0.10'
+  require_jar 'org.slf4j', 'slf4j-api', '1.7.25'
+  require_jar 'org.apache.kafka', 'kafka_2.12', '1.1.1'
+  require_jar 'com.yammer.metrics', 'metrics-core', '2.2.0'
+  require_jar 'org.scala-lang', 'scala-library', '2.12.4'
+  require_jar 'org.apache.kafka', 'kafka-clients', '1.1.1'
+  require_jar 'org.slf4j', 'slf4j-log4j12', '1.7.13'
+  require_jar 'com.fasterxml.jackson.core', 'jackson-databind', '2.9.6'
+  require_jar 'org.scala-lang', 'scala-reflect', '2.12.4'
+  require_jar 'org.apache.zookeeper', 'zookeeper', '3.4.10'
+  require_jar 'net.sf.jopt-simple', 'jopt-simple', '5.0.4'
+end
